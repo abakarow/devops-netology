@@ -3,16 +3,16 @@
 
 ## Задание №1 – Знакомимся с gitlab и bitbucket  
 
-bitbucket	git@bitbucket.org:abakarow/devops-netology.git (fetch)      
-bitbucket	git@bitbucket.org:abakarow/devops-netology.git (push)  
-gitlab	git@gitlab.com:abakarow/devops-netology.git (fetch)  
-gitlab	git@gitlab.com:abakarow/devops-netology.git (push)  
-origin	git@github.com:abakarow/devops-netology.git (fetch)  
-origin	git@github.com:abakarow/devops-netology.git (push)  
+`bitbucket	git@bitbucket.org:abakarow/devops-netology.git (fetch)`  
+`bitbucket	git@bitbucket.org:abakarow/devops-netology.git (push)`  
+`gitlab	git@gitlab.com:abakarow/devops-netology.git (fetch)`  
+`gitlab	git@gitlab.com:abakarow/devops-netology.git (push)`  
+`origin	git@github.com:abakarow/devops-netology.git (fetch)`  
+`origin	git@github.com:abakarow/devops-netology.git (push)`  
 
 ## Задание №2 – Теги 
 
-Добавлен легковесный тег `v0.0` к коммиту `43f59c5` и аннотированный тег v0.1
+Добавлен легковесный тег `v0.0` к коммиту `43f59c5` и аннотированный тег `v0.1`
 
 ## Задание №3 – Ветки 
 
