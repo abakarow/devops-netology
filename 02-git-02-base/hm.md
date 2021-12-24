@@ -31,4 +31,4 @@ origin	git@github.com:abakarow/devops-netology.git (push)
 и как изменится вывод команды `git log`.
 
 ## Задание №4 - Упрощаем себе жизнь 
-![img.png](img.png)
+![img.png](img.png) 
