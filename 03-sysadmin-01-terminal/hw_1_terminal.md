@@ -5,6 +5,7 @@
 
 `   sudo apt install virtualbox
 `
+
 2. Установите средство автоматизации:
 
 `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add - `
