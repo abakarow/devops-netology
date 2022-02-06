@@ -64,4 +64,34 @@ More information can be found at https://github.com/chef/bento
 * Длина журнала - HISTFILESIZE
 * ignoreboth -  содержит в себе ‘ignorespace - не сохранять строки начинающиеся с символа <пробел>’ и ‘ignoredups - не сохранять строки, совпадающие с последней выполненной командой’
 
-9. 
+9. В каких сценариях использования применимы скобки {} и на какой строчке man bash это описано?
+
+* Строка 206 
+`* man bash | grep -n {
+....
+man bash | cat -n | sed -n '200,+40p'
+}`
+
+10. Touch
+
+* touch {1..100000}
+
+11. Что делает конструкция [[ -d /tmp ]]
+
+* [[ -d /tmp ]] возвращает 1, если выражение в скобках верное, 0 — если не верное.
+
+12. Вывод
+
+`vagrant@vagrant:~$ type -a bash
+bash is /tmp/new_path_directory/bash
+bash is /usr/bin/bash
+bash is /bin/bash`
+
+13. Чем отличается планирование команд с помощью batch и at?
+
+* `at` запуск команды в определенное время.
+* `batch` запуск команды при достижении определённого уровня нагрузки системы.
+
+14. Завершение работы 
+
+* sudo shutdown -h now
