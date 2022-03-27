@@ -77,7 +77,7 @@ man bash | cat -n | sed -n '200,+40p'
 * `touch {1..100000}`
 * `300000 - Argument list too long`
 
-11. Что делает конструкция [[ -d /tmp ]]
+11. В man bash поищите по /\[\[. Что делает конструкция [[ -d /tmp ]]?
 
 * `[[ -d /tmp ]] - true`
 
