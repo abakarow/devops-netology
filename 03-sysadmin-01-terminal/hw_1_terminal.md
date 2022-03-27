@@ -78,7 +78,6 @@ man bash | cat -n | sed -n '200,+40p'
 * `300000 - Argument list too long`
 
 11. В man bash поищите по /\[\[. Что делает конструкция [[ -d /tmp ]]?
-
 * `[[ -d /tmp ]] - true`
 
 12. Вывод
