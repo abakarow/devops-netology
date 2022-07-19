@@ -1,9 +1,26 @@
 # Домашнее задание к занятию "4.3. Языки разметки JSON и YAML"
 
-## Обязательные задания
 
-1. Мы выгрузили JSON, который получили через API запрос к нашему сервису:
-	```json
+## Обязательная задача 1
+Мы выгрузили JSON, который получили через API запрос к нашему сервису:
+```
+    { "info" : "Sample JSON output from our service\t",
+        "elements" :[
+            { "name" : "first",
+            "type" : "server",
+            "ip" : 7175 
+            }
+            { "name" : "second",
+            "type" : "proxy",
+            "ip : 71.78.22.43
+            }
+        ]
+    }
+```
+  Нужно найти и исправить все ошибки, которые допускает наш сервис
+
+### Ваш скрипт:
+```json
     { "info" : "Sample JSON output from our service\t",
         "elements" :[
             { "name" : "first",
@@ -12,29 +29,214 @@
             },
             { "name" : "second",
             "type" : "proxy",
-            "ip : 71.78.22.43
+            "ip" : "71.78.22.43"
             }
         ]
     }
-	```
-  Нужно найти и исправить все ошибки, которые допускает наш сервис
+```
 
-2. В прошлый рабочий день мы создавали скрипт, позволяющий опрашивать веб-сервисы и получать их IP. К уже реализованному функционалу нам нужно добавить возможность записи JSON и YAML файлов, описывающих наши сервисы. Формат записи JSON по одному сервису: { "имя сервиса" : "его IP"}. Формат записи YAML по одному сервису: - имя сервиса: его IP. Если в момент исполнения скрипта меняется IP у сервиса - он должен так же поменяться в yml и json файле.
+## Обязательная задача 2
+В прошлый рабочий день мы создавали скрипт, позволяющий опрашивать веб-сервисы и получать их IP. К уже реализованному функционалу нам нужно добавить возможность записи JSON и YAML файлов, описывающих наши сервисы. Формат записи JSON по одному сервису: `{ "имя сервиса" : "его IP"}`. Формат записи YAML по одному сервису: `- имя сервиса: его IP`. Если в момент исполнения скрипта меняется IP у сервиса - он должен так же поменяться в yml и json файле.
 
-## Дополнительное задание (со звездочкой*) - необязательно к выполнению
+### Ваш скрипт:
+```python
+#!/usr/bin/env python3
 
-Так как команды в нашей компании никак не могут прийти к единому мнению о том, какой формат разметки данных использовать: JSON или YAML, нам нужно реализовать парсер из одного формата в другой. Он должен уметь:
-   * Принимать на вход имя файла
-   * Проверять формат исходного файла. Если файл не json или yml - скрипт должен остановить свою работу
-   * Распознавать какой формат данных в файле. Считается, что файлы *.json и *.yml могут быть перепутаны
-   * Перекодировать данные из исходного формата во второй доступный (из JSON в YAML, из YAML в JSON)
-   * При обнаружении ошибки в исходном файле - указать в стандартном выводе строку с ошибкой синтаксиса и её номер
-   * Полученный файл должен иметь имя исходного файла, разница в наименовании обеспечивается разницей расширения файлов
+import socket
+import json
+import yaml
 
----
+from time import sleep
 
-### Как сдавать задания
+urls = {"drive.google.com": socket.gethostbyname("drive.google.com"),
+        'mail.google.com': socket.gethostbyname("mail.google.com"), 'google.com': socket.gethostbyname("google.com")}
 
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
+i = 0
+while i < 50:  # для бесконечного цикла заменить i < 50 на 1 == 1...
+    i += 1  # ...и закомментировать эту строчку
+    for host in urls:
+        sleep(1)
+        if urls[host] != socket.gethostbyname(host):
+            print("[ERROR] " + host + " IP mismatch: " + urls[host] + " " + socket.gethostbyname(host))
+        urls[host] = socket.gethostbyname(host)
+        print(host + " - " + urls[host])
+    with open("hosts.json", "w") as hosts:
+        hosts.write(json.dumps(urls, indent=2))
+    with open("hosts.yml", "w") as hosts:
+        hosts.write(yaml.dump(urls, indent=2))
 
----
+```
+
+### Вывод скрипта при запуске при тестировании:
+```
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.83
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+[ERROR] mail.google.com IP mismatch: 108.177.14.83 108.177.14.18
+mail.google.com - 108.177.14.18
+google.com - 173.194.222.139
+drive.google.com - 142.251.1.194
+mail.google.com - 108.177.14.18
+google.com - 173.194.222.139
+
+Process finished with exit code 0
+
+```
+
+### json-файл(ы), который(е) записал ваш скрипт:
+```json
+{
+  "drive.google.com": "142.251.1.194",
+  "mail.google.com": "108.177.14.18",
+  "google.com": "173.194.222.139"
+}
+```
+
+### yml-файл(ы), который(е) записал ваш скрипт:
+```yaml
+drive.google.com: 142.251.1.194
+google.com: 173.194.222.139
+mail.google.com: 108.177.14.18
+```
