@@ -1,3 +1,5 @@
 FROM nginx:1.21.6-alpine
 
-COPY index.html /usr/share/nginx/html
+COPY html/ /home/ops/5.3/html
+
+EXPOSE 80
