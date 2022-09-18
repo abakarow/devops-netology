@@ -23,4 +23,7 @@ resource "yandex_compute_instance" "node01" {
     nat       = true
   }
 
+  metadata = {
+    ssh-keys = "centos:${file("~/.ssh/id_rsa.pub")}"
+  }
 }

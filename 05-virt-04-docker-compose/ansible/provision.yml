@@ -16,48 +16,27 @@
       - name: Checking DNS
         command: host -t A google.com
 
-#      - name: Installing tools
-#        yum: >
-#          package={{ item }}
-#          state=present
-#          update_cache=yes
-#        with_items:
-#          - git
-#          - curl
-
       - name: Installing tools
-        yum:
-          name: "{{ packages }}"
-          state: present
-          update_cache: yes
-        vars:
-          packages:
-            - curl
-            - git
+        yum: >
+          package={{ item }}
+          state=present
+          update_cache=yes
+        with_items:
+          - git
+          - curl
 
       - name: Add docker repository
         command: yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 
-#      - name: Installing docker package
-#        yum: >
-#          package={{ item }}
-#          state=present
-#          update_cache=yes
-#        with_items:
-#          - docker-ce
-#          - docker-ce-cli
-#          - containerd.io
-
       - name: Installing docker package
-        yum:
-          name: "{{ packages }}"
-          state: present
-          update_cache: yes
-        vars:
-          packages:
-            - docker-ce
-            - docker-ce-cli
-            - containerd.io
+        yum: >
+          package={{ item }}
+          state=present
+          update_cache=yes
+        with_items:
+          - docker-ce
+          - docker-ce-cli
+          - containerd.io
 
       - name: Enable docker daemon
         systemd:
