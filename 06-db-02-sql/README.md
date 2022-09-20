@@ -308,6 +308,7 @@ ops@ops-Lenovo-G780:~/PycharmProjects/devops-netology/06-db-02-sql$ docker stop 
 Поднимите новый пустой контейнер с PostgreSQL.
 ### Решение
 
+
 ````
 version: '3.5'
 services:
