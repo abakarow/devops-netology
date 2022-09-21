@@ -277,7 +277,7 @@ CREATE TABLE orders_2 PARTITION OF orders
 
 Используя утилиту `pg_dump` создайте бекап БД `test_database`.
 ```bash
-root@023ece8e96f1:/# pg_dump -U postgres -v -f /data/backup/postgres/test_database.sql 
+root@861490f7319a:/# pg_dump -U postgres -v -f /data/backup/postgres/test_database.sql 
 ```
 Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
