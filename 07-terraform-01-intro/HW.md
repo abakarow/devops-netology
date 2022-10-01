@@ -40,6 +40,21 @@
 
 Если для ответа на эти вопросы недостаточно информации, то напишите какие моменты уточните на совещании.
 
+###Решение:
+Ответы на 4 вопроса легенды:
+
+1. Изменяемый или неизменяемый (удобно при обновлениях)
+2. Нет
+3. Нет
+4. Да
+
+Ответы на вопрос об используемых инструментах:
+
+    Packer, Terraform, Kubernetes (OpenShift), Ansible (Chef), Teamcity (Jenkins), Docker
+
+Ответ на вопрос о внедрении новых инструментов:
+
+1. Ответить затрудняюсь, недостаточно вводной информации. 
 
 ## Задача 2. Установка терраформ. 
 
@@ -63,10 +78,22 @@
 В виде результата этой задачи приложите вывод `--version` двух версий терраформа доступных на вашем компьютере 
 или виртуальной машине.
 
----
+###Решение 
 
-### Как cдавать задание
+````
+ops@ops-Lenovo-G780:~$ terraform110 --version
+Terraform v1.1.0
+on linux_amd64
 
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
+Your version of Terraform is out of date! The latest version
+is 1.2.9. You can update by downloading from https://www.terraform.io/downloads.html
+````
 
----
+````
+ops@ops-Lenovo-G780:~$ terraform1011 --version
+Terraform v1.0.11
+on linux_amd64
+
+Your version of Terraform is out of date! The latest version
+is 1.2.9. You can update by downloading from https://www.terraform.io/downloads.html
+````
