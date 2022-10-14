@@ -1,3 +1,5 @@
 ---
-java_jdk_version: 11.0.11
-java_oracle_jdk_package: jdk-11.0.11_linux-x64_bin.tar.gz
+java_jdk_version: 11.0.16
+java_oracle_jdk_package: jdk-11.0.16_linux-x64_bin.tar.gz
+elastcsearcj_package: elasticsearch-7.10.1-linux-x86_64.tar.gz
+kibana_package: kibana-7.10.1-linux-x86_64.tar.gz
