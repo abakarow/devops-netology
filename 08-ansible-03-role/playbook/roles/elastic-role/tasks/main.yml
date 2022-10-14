@@ -1,4 +1,8 @@
 ---
+  - name: check filesystem existence
+    shell: if [[ -d "tmp/elasticsearch-{{ elastic_version }}-linux-x86_64.tar.gz" ]]; then echo "true"; fi
+    register: file_exists
+
   - name: Upload tar.gz Elasticsearch from remote URL
     get_url:
       url: "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-{{ elastic_version }}-linux-x86_64.tar.gz"
@@ -8,6 +12,7 @@
       force: true
     register: get_elastic
     until: get_elastic is succeeded
+    when: file_exists.stdout == "true"
     tags: elastic
   - name: Create directrory for Elasticsearch
     file:

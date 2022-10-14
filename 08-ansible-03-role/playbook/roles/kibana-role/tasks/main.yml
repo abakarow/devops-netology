@@ -1,0 +1,40 @@
+---
+- name: check filesystem existence
+  shell: if [[ -d "tmp/kibana-8.3.2-linux-x86_64.tar.gz" ]]; then echo "true"; fi
+  register: file_exists
+
+- name: check filesystem existence
+  shell: if [[ -d "tmp/kibana-8.3.2-linux-x86_64.tar.gz" ]]; then echo "true"; fi
+  register: file_exists
+- name: dowland kibana
+  get_url:
+    url: "https://artifacts.elastic.co/downloads/kibana/kibana-8.3.2-linux-x86_64.tar.gz"
+    dest: "/tmp/kibana-8.3.2-linux-x86_64.tar.gz"
+    mode: 0755
+    timeout: 60
+    force: true
+  register: get_kibana
+  until: get_kibana is succeeded
+  when: file_exists.stdout == "true"
+  tags: kibana
+- name: Create directory from kibana
+  file:
+    state: directory
+    path: "/opt/elastic/kibana-8.3.2"
+  tags: kibana
+- name: Coppy to files bin
+  become: true
+  unarchive:
+    copy: false
+    src: "/tmp/kibana-8.3.2-linux-x86_64.tar.gz"
+    dest: "/opt/elastic/kibana-8.3.2"
+    extra_opts: [--strip-components=1]
+    creates: "/opt/elastic/kibana-8.3.2/bin/kibana"
+  tags: 
+    - kibana
+- name: set environment kibana
+  become: true
+  template: 
+    src: templates/kib.sh.j2
+    dest: /etc/profile.d/kib.sh
+  tags: kibana 
