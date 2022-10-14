@@ -199,8 +199,8 @@ changed: [vm1]
 
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
 ### Решение
-[Readme](https://github.com/login?client_id=58566862bd2a5ff748fb&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D58566862bd2a5ff748fb%26scope%3Drepo%2Bgist%2Bworkflow%2Bread%253Aorg%26state%3DcallbackUrl%253Dhttp%25253A%25252F%25252F127.0.0.1%25253A63342%25252Fapi%25252Fgithub%25252Foauth%25252Fauthorization_code%2526codeChallenge%253Do2hOmtA1hBajS8qTVdbDMSihR2KbRKgobaMjWyMiRrc%25253D%2526sessionToken%253D0n_bK5HLO0p5ShdQMgULhkBYi_bP899zYtRzi9t_AXwRaQF-kOVvibZbMW48xy-D%2526from%253D0%2526provider%253D1)
+[Readme](https://github.com/abakarow/devops-netology/blob/main/08-ansible-02-playbook/playbook/readme.md)
 
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
 ### Решение
-Репозиторий
+[Репозиторий](https://github.com/abakarow/devops-netology/blob/main/08-ansible-02-playbook/playbook/playbook.yml)
