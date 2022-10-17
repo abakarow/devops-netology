@@ -129,21 +129,64 @@ bash-4.4$ cat /nexus-data/admin.password
 ### Подготовка к выполнению
 
 1. Скачиваем дистрибутив с [maven](https://maven.apache.org/download.cgi)
+### Решение
+```
+ops@ops-Lenovo-G780:~$ wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip
+--2022-10-17 08:23:55--  https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.zip
+Распознаётся dlcdn.apache.org (dlcdn.apache.org)… 151.101.2.132, 2a04:4e42::644
+Подключение к dlcdn.apache.org (dlcdn.apache.org)|151.101.2.132|:443... соединение установлено.
+HTTP-запрос отправлен. Ожидание ответа… 200 OK
+Длина: 8760013 (8,4M) [application/zip]
+Сохранение в: «apache-maven-3.8.6-bin.zip»
+
+apache-maven-3.8.6-bin.zip                   100%[===========================================================================================>]   8,35M   382KB/s    за 17s     
+
+2022-10-17 08:24:13 (489 KB/s) - «apache-maven-3.8.6-bin.zip» сохранён [8760013/8760013]
+```
+
 2. Разархивируем, делаем так, чтобы binary был доступен через вызов в shell (или меняем переменную PATH или любой другой удобный вам способ)
+### Решение
+```
+ops@ops-Lenovo-G780:~$ export PATH=$PATH:/var/lib/apache-maven-3.8.6/bin
+```
 3. Проверяем `mvn --version`
+### Решение
+```
+ops@ops-Lenovo-G780:~$ mvn --version 
+Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+Maven home: /var/lib/apache-maven-3.8.6
+Java version: 11.0.16, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: ru_RU, platform encoding: UTF-8
+OS name: "linux", version: "5.15.0-50-generic", arch: "amd64", family: "unix"
+
+```
+
 4. Забираем директорию [mvn](./mvn) с pom
 
 ### Основная часть
 
 1. Меняем в `pom.xml` блок с зависимостями под наш артефакт из первого пункта задания для Nexus (java с версией 8_282)
 2. Запускаем команду `mvn package` в директории с `pom.xml`, ожидаем успешного окончания
+### Решение
+```
+$ mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------------------< com.netology.app:simple-app >---------------------
+[INFO] Building simple-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+...
+[INFO] Building jar: /home/ops/devops-netology/9.2/mvn/target/simple-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:00 min
+[INFO] Finished at: 2022-10-17T08:27:46Z
+[INFO] ------------------------------------------------------------------------
+```
 3. Проверяем директорию `~/.m2/repository/`, находим наш артефакт
+### Решение
+![](src/2022-10-17_08-38.png)
 4. В ответе присылаем исправленный файл `pom.xml`
+### Решение
 
----
-
-### Как оформить ДЗ?
-
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
