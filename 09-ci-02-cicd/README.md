@@ -17,9 +17,35 @@
 1. Создаём новый проект, название произвольное
 2. Скачиваем пакет sonar-scanner, который нам предлагает скачать сам sonarqube
 3. Делаем так, чтобы binary был доступен через вызов в shell (или меняем переменную PATH или любой другой удобный вам способ)
+### Решение
+```
+export PATH=$PATH:/var/lib/sonar-scanner-4.7.0.2747-linux/bin
+ ```
 4. Проверяем `sonar-scanner --version`
+### Решение
+```
+ops@ops-Lenovo-G780:~$ sonar-scanner --version 
+INFO: Scanner configuration file: /var/lib/sonar-scanner-4.7.0.2747-linux/conf/sonar-scanner.properties
+INFO: Project root configuration file: NONE
+INFO: SonarScanner 4.7.0.2747
+INFO: Java 11.0.14.1 Eclipse Adoptium (64-bit)
+INFO: Linux 5.15.0-50-generic amd64
+```
+
 5. Запускаем анализатор против кода из директории [example](./example) с дополнительным ключом `-Dsonar.coverage.exclusions=fail.py`
+### Решение
+```
+ops@ops-Lenovo-G780:~/PycharmProjects/devops-netology/09-ci-02-cicd/example$ sonar-scanner   
+-Dsonar.projectKey=Abakarow   
+-Dsonar.sources=.   
+-Dsonar.host.url=http://localhost:9000  
+-Dsonar.login=4436686cab8530345637d062f8c8d8341663532f 
+-Dsonar.coverage.exclusions=fail.py
+```
+
 6. Смотрим результат в интерфейсе
+### Решение
+
 7. Исправляем ошибки, которые он выявил(включая warnings)
 8. Запускаем анализатор повторно - проверяем, что QG пройдены успешно
 9. Делаем скриншот успешного прохождения анализа, прикладываем к решению ДЗ
