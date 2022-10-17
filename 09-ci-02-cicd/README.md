@@ -122,7 +122,7 @@ bash-4.4$ cat /nexus-data/admin.password
 ![](src/2022-10-17_08-14.png)
 4. В ответе присылаем файл `maven-metadata.xml` для этого артефекта
 ### Решение
-maven-metadata.xml
+[maven-metadata.xml](https://github.com/abakarow/devops-netology/blob/main/09-ci-02-cicd/src/maven-metadata.xml)
 
 ### Знакомство с Maven
 
