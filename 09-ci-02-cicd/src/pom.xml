@@ -66,7 +66,7 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-bb3792edafca.js"></script>
   
 
-  <title>devops-netology/pom.xml at main · uralhouse/devops-netology</title>
+  <title>devops-netology/pom.xml at main · abakarow/devops-netology</title>
 
 
 
@@ -105,13 +105,14 @@
 
     <meta name="viewport" content="width=device-width">
     
-      <meta name="description" content="Contribute to uralhouse/devops-netology development by creating an account on GitHub.">
+      <meta name="description" content="Contribute to abakarow/devops-netology development by creating an account on GitHub.">
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/dc39e42d781c7d9573c2aef604816f3e2a63b9535130e27df74d5c4c5bb618cb/uralhouse/devops-netology" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="devops-netology/pom.xml at main · uralhouse/devops-netology" /><meta name="twitter:description" content="Contribute to uralhouse/devops-netology development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/dc39e42d781c7d9573c2aef604816f3e2a63b9535130e27df74d5c4c5bb618cb/uralhouse/devops-netology" /><meta property="og:image:alt" content="Contribute to uralhouse/devops-netology development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="devops-netology/pom.xml at main · uralhouse/devops-netology" /><meta property="og:url" content="https://github.com/uralhouse/devops-netology" /><meta property="og:description" content="Contribute to uralhouse/devops-netology development by creating an account on GitHub." />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/dc39e42d781c7d9573c2aef604816f3e2a63b9535130e27df74d5c4c5bb618cb/
+      /devops-netology" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="devops-netology/pom.xml at main · abakarow/devops-netology" /><meta name="twitter:description" content="Contribute to abakarow/devops-netology development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/dc39e42d781c7d9573c2aef604816f3e2a63b9535130e27df74d5c4c5bb618cb/abakarow/devops-netology" /><meta property="og:image:alt" content="Contribute to abakarow/devops-netology development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="devops-netology/pom.xml at main · abakarow/devops-netology" /><meta property="og:url" content="https://github.com/abakarow/devops-netology" /><meta property="og:description" content="Contribute to abakarow/devops-netology development by creating an account on GitHub." />
       
     <link rel="assets" href="https://github.githubassets.com/">
       <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/60972929/ws?session=eyJ2IjoiVjMiLCJ1Ijo2MDk3MjkyOSwicyI6OTU3MjMwMTQ0LCJjIjo0MjI3NjgwMDc3LCJ0IjoxNjY1OTg1MDMzfQ==--7b4a53fabbcd00cb2d9b2a3b5334fbc64964012930a095fc85251e5907778a8c" data-refresh-url="/_alive" data-session-id="fe97819cb13ab1d4ff8b78785d41da8963dc39474688aeca577fb18aeaa55cd0">
@@ -138,13 +139,13 @@
 
         <meta data-hydrostats="publish">
 
-  <meta name="go-import" content="github.com/uralhouse/devops-netology git https://github.com/uralhouse/devops-netology.git">
+  <meta name="go-import" content="github.com/abakarow/devops-netology git https://github.com/abakarow/devops-netology.git">
 
-  <meta name="octolytics-dimension-user_id" content="93028652" /><meta name="octolytics-dimension-user_login" content="uralhouse" /><meta name="octolytics-dimension-repository_id" content="421396622" /><meta name="octolytics-dimension-repository_nwo" content="uralhouse/devops-netology" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="421396622" /><meta name="octolytics-dimension-repository_network_root_nwo" content="uralhouse/devops-netology" />
+  <meta name="octolytics-dimension-user_id" content="93028652" /><meta name="octolytics-dimension-user_login" content="abakarow" /><meta name="octolytics-dimension-repository_id" content="421396622" /><meta name="octolytics-dimension-repository_nwo" content="abakarow/devops-netology" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="421396622" /><meta name="octolytics-dimension-repository_network_root_nwo" content="abakarow/devops-netology" />
 
 
 
-    <link rel="canonical" href="https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/abakarow/devops-netology/blob/main/09-ci-02-cicd/pom.xml" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -214,7 +215,7 @@
 <div class="header-search flex-auto position-relative js-site-search flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="421396622" data-scoped-search-url="/uralhouse/devops-netology/search" data-owner-scoped-search-url="/users/uralhouse/search" data-unscoped-search-url="/search" data-turbo="false" action="/uralhouse/devops-netology/search" accept-charset="UTF-8" method="get">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="421396622" data-scoped-search-url="/abakarow/devops-netology/search" data-owner-scoped-search-url="/users/abakarow/search" data-unscoped-search-url="/search" data-turbo="false" action="/abakarow/devops-netology/search" accept-charset="UTF-8" method="get">
       <label class="form-control header-search-wrapper input-sm p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
         <input type="text"
           class="form-control js-site-search-focus header-search-input jump-to-field js-jump-to-field js-site-search-field is-clearable"
@@ -434,7 +435,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;abakarow&quot;,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="842d15dac43e9909b4fc5abb27a533670e2b1dac1e68859de1f08edb87a339e3" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;abakarow&quot;,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="842d15dac43e9909b4fc5abb27a533670e2b1dac1e68859de1f08edb87a339e3" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -630,7 +631,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml
+      return-to=/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml
       user-id="60972929"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -734,14 +735,14 @@
         <command-palette-scope >
           <div data-target="command-palette-scope.placeholder" hidden class="color-fg-subtle">/&nbsp;&nbsp;<span class="text-semibold color-fg-default">...</span>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
               <command-palette-token
-                data-text="uralhouse"
+                data-text="abakarow"
                 data-id="U_kgDOBYuBLA"
                 data-type="owner"
-                data-value="uralhouse"
+                data-value="abakarow"
                 data-targets="command-palette-scope.tokens"
                 class="color-fg-default text-semibold"
                 style="white-space:nowrap;line-height:20px;"
-                >uralhouse<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
+                >abakarow<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
               <command-palette-token
                 data-text="devops-netology"
                 data-id="R_kgDOGR4Ajg"
@@ -1212,7 +1213,7 @@
             </command-palette-item-group>
 
             <command-palette-page
-              data-page-title="uralhouse"
+              data-page-title="abakarow"
               data-scope-id="U_kgDOBYuBLA"
               data-scope-type="owner"
               data-targets="command-palette-page-stack.defaultPages"
@@ -1232,7 +1233,7 @@
         <command-palette-page data-is-root>
         </command-palette-page>
           <command-palette-page
-            data-page-title="uralhouse"
+            data-page-title="abakarow"
             data-scope-id="U_kgDOBYuBLA"
             data-scope-type="owner"
           >
@@ -1568,11 +1569,11 @@
 </svg>
     
     <span class="author flex-self-stretch" itemprop="author">
-      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/uralhouse/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/uralhouse">uralhouse</a>
+      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/abakarow/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/abakarow">abakarow</a>
     </span>
     <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
     <strong itemprop="name" class="mr-2 flex-self-stretch">
-      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/uralhouse/devops-netology">devops-netology</a>
+      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/abakarow/devops-netology">devops-netology</a>
     </strong>
 
     <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
@@ -1596,7 +1597,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="12a26d1eba443f69d59ab709e7e61a623fe4e7341821b1a4308b9a2f77f0faff" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="12a26d1eba443f69d59ab709e7e61a623fe4e7341821b1a4308b9a2f77f0faff" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1917,7 +1918,7 @@
 
   <li>
         <div data-view-component="true" class="BtnGroup">
-        <a icon="repo-forked" href="/uralhouse/devops-netology/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="08ae0b4097158ad0ab4cfcb0d782a267ddedad356f8c63da68c07da91594c2d8" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of uralhouse/devops-netology" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+        <a icon="repo-forked" href="/abakarow/devops-netology/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="08ae0b4097158ad0ab4cfcb0d782a267ddedad356f8c63da68c07da91594c2d8" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of abakarow/devops-netology" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
           <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="0" data-view-component="true" class="Counter">0</span>
@@ -1929,7 +1930,7 @@
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/uralhouse/devops-netology/my_forks_menu_content?can_fork=true"
+      src="/abakarow/devops-netology/my_forks_menu_content?can_fork=true"
       
       role="menu"
       
@@ -1983,10 +1984,10 @@
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-flex">
     <div data-view-component="true" class="starred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/uralhouse/devops-netology/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oioxTEyhxxcuH9KPEu0egMVsHbEMvygSGrk0cshOrk-qQjp26idk9g_qlmAwUEx6VBMulxtWuL0vDfe-Y4-hAg" autocomplete="off" />
+      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/abakarow/devops-netology/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="oioxTEyhxxcuH9KPEu0egMVsHbEMvygSGrk0cshOrk-qQjp26idk9g_qlmAwUEx6VBMulxtWuL0vDfe-Y4-hAg" autocomplete="off" />
           <input type="hidden" value="kS-cEm_0ozcD_bmmMcMpxF5Uge1NUNFU5w7H61oyBfCZR5coyXIA1iII_UkTfns-zyuyy1q5QfvSugQn8fMKvQ" data-csrf="true" class="js-confirm-csrf-token" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="310bc9be9ad2ba64a0a9e36cdb96da1c9fdce3d0e97dcb3532cbe594bd8007d2" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (0)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="310bc9be9ad2ba64a0a9e36cdb96da1c9fdce3d0e97dcb3532cbe594bd8007d2" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (0)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Starred
@@ -1998,7 +1999,7 @@
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/uralhouse/devops-netology/lists"
+      src="/abakarow/devops-netology/lists"
       
       role="menu"
       
@@ -2031,9 +2032,9 @@
 </details>
 </div>
     <div data-view-component="true" class="unstarred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/uralhouse/devops-netology/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="xi2QPgVolv_QGH1Zk-KyknG0nI356SRWmIp_yWPhYioBWOPhiQQxrcqRvAxGeYsLed9opC2Lumj_1c7Rdokpag" autocomplete="off" />
+      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/abakarow/devops-netology/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="xi2QPgVolv_QGH1Zk-KyknG0nI356SRWmIp_yWPhYioBWOPhiQQxrcqRvAxGeYsLed9opC2Lumj_1c7Rdokpag" autocomplete="off" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="44a02f6fbe3c07218329637bc64160a072b15a6863de8d77d2b99f33149cb6c0" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (0)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="44a02f6fbe3c07218329637bc64160a072b15a6863de8d77d2b99f33149cb6c0" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (0)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Star
@@ -2045,7 +2046,7 @@
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/uralhouse/devops-netology/lists"
+      src="/abakarow/devops-netology/lists"
       
       role="menu"
       
@@ -2093,7 +2094,7 @@
 
   <ul data-view-component="true" class="UnderlineNav-body list-style-none">
       <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/uralhouse/devops-netology" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /uralhouse/devops-netology" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+  <a id="code-tab" href="/abakarow/devops-netology" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /abakarow/devops-netology" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
@@ -2105,7 +2106,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="issues-tab" href="/uralhouse/devops-netology/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /uralhouse/devops-netology/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="issues-tab" href="/abakarow/devops-netology/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /abakarow/devops-netology/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
@@ -2117,7 +2118,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="pull-requests-tab" href="/uralhouse/devops-netology/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /uralhouse/devops-netology/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="pull-requests-tab" href="/abakarow/devops-netology/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /abakarow/devops-netology/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
@@ -2129,7 +2130,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="actions-tab" href="/uralhouse/devops-netology/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /uralhouse/devops-netology/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="actions-tab" href="/abakarow/devops-netology/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /abakarow/devops-netology/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
@@ -2141,7 +2142,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="projects-tab" href="/uralhouse/devops-netology/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /uralhouse/devops-netology/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="projects-tab" href="/abakarow/devops-netology/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /abakarow/devops-netology/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0114.25 16H1.75A1.75 1.75 0 010 14.25V1.75zM1.5 6.5v7.75c0 .138.112.25.25.25H5v-8H1.5zM5 5H1.5V1.75a.25.25 0 01.25-.25H5V5zm1.5 1.5v8h7.75a.25.25 0 00.25-.25V6.5h-8zm8-1.5h-8V1.5h7.75a.25.25 0 01.25.25V5z"></path>
@@ -2153,18 +2154,18 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="security-tab" href="/uralhouse/devops-netology/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /uralhouse/devops-netology/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="security-tab" href="/abakarow/devops-netology/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /abakarow/devops-netology/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
 </svg>
         <span data-content="Security">Security</span>
-          <include-fragment src="/uralhouse/devops-netology/security/overall-count" accept="text/fragment+html"></include-fragment>
+          <include-fragment src="/abakarow/devops-netology/security/overall-count" accept="text/fragment+html"></include-fragment>
 
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="insights-tab" href="/uralhouse/devops-netology/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /uralhouse/devops-netology/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="insights-tab" href="/abakarow/devops-netology/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /abakarow/devops-netology/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
@@ -2186,31 +2187,31 @@
 </summary>
   <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">          <ul>
               <li data-menu-item="i0code-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /uralhouse/devops-netology" href="/uralhouse/devops-netology">
+                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /abakarow/devops-netology" href="/abakarow/devops-netology">
                   Code
 </a>              </li>
               <li data-menu-item="i1issues-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /uralhouse/devops-netology/issues" href="/uralhouse/devops-netology/issues">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /abakarow/devops-netology/issues" href="/abakarow/devops-netology/issues">
                   Issues
 </a>              </li>
               <li data-menu-item="i2pull-requests-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /uralhouse/devops-netology/pulls" href="/uralhouse/devops-netology/pulls">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /abakarow/devops-netology/pulls" href="/abakarow/devops-netology/pulls">
                   Pull requests
 </a>              </li>
               <li data-menu-item="i3actions-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /uralhouse/devops-netology/actions" href="/uralhouse/devops-netology/actions">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /abakarow/devops-netology/actions" href="/abakarow/devops-netology/actions">
                   Actions
 </a>              </li>
               <li data-menu-item="i4projects-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /uralhouse/devops-netology/projects" href="/uralhouse/devops-netology/projects">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /abakarow/devops-netology/projects" href="/abakarow/devops-netology/projects">
                   Projects
 </a>              </li>
               <li data-menu-item="i5security-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /uralhouse/devops-netology/security" href="/uralhouse/devops-netology/security">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /abakarow/devops-netology/security" href="/abakarow/devops-netology/security">
                   Security
 </a>              </li>
               <li data-menu-item="i6insights-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /uralhouse/devops-netology/pulse" href="/uralhouse/devops-netology/pulse">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /abakarow/devops-netology/pulse" href="/abakarow/devops-netology/pulse">
                   Insights
 </a>              </li>
           </ul>
@@ -2246,7 +2247,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/uralhouse/devops-netology/blob/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/abakarow/devops-netology/blob/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2254,7 +2255,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="523af0f358c3fadc991d27c320128cf81bb78814079df9cdf065f4d125dbaf47">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="523af0f358c3fadc991d27c320128cf81bb78814079df9cdf065f4d125dbaf47">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2305,7 +2306,7 @@
               tab-selected:ref-selector#tabSelected
               focus-list:ref-selector#focusFirstListMember
             "
-            query-endpoint="/uralhouse/devops-netology/refs"
+            query-endpoint="/abakarow/devops-netology/refs"
             
             cache-key="v0:1636031115.063949"
             current-committish="bWFpbg=="
@@ -2333,7 +2334,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/uralhouse/devops-netology/blob/{{ urlEncodedRefName }}/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/abakarow/devops-netology/blob/{{ urlEncodedRefName }}/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2343,7 +2344,7 @@
 </template>
 
 
-              <footer class="SelectMenu-footer"><a href="/uralhouse/devops-netology/branches">View all branches</a></footer>
+              <footer class="SelectMenu-footer"><a href="/abakarow/devops-netology/branches">View all branches</a></footer>
           </ref-selector>
 
         </div>
@@ -2357,7 +2358,7 @@
               focus-list:ref-selector#focusFirstListMember
             "
             data-targets="input-demux.sinks"
-            query-endpoint="/uralhouse/devops-netology/refs"
+            query-endpoint="/abakarow/devops-netology/refs"
             cache-key="v0:1636031115.063949"
             current-committish="bWFpbg=="
             default-branch="bWFpbg=="
@@ -2373,7 +2374,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/uralhouse/devops-netology/blob/{{ urlEncodedRefName }}/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/abakarow/devops-netology/blob/{{ urlEncodedRefName }}/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2391,7 +2392,7 @@
 </svg>
               </div>
             </div>
-              <footer class="SelectMenu-footer"><a href="/uralhouse/devops-netology/tags">View all tags</a></footer>
+              <footer class="SelectMenu-footer"><a href="/abakarow/devops-netology/tags">View all tags</a></footer>
           </ref-selector>
         </div>
       </tab-container>
@@ -2434,9 +2435,9 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/uralhouse/devops-netology"><span>devops-netology</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/uralhouse/devops-netology/tree/main/3_mnt-homeworks"><span>3_mnt-homeworks</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/uralhouse/devops-netology/tree/main/3_mnt-homeworks/09-ci-02-cicd"><span>09-ci-02-cicd</span></a></span><span class="separator">/</span><strong class="final-path">pom.xml</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/abakarow/devops-netology"><span>devops-netology</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/abakarow/devops-netology/tree/main/3_mnt-homeworks"><span>3_mnt-homeworks</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/abakarow/devops-netology/tree/main/3_mnt-homeworks/09-ci-02-cicd"><span>09-ci-02-cicd</span></a></span><span class="separator">/</span><strong class="final-path">pom.xml</strong>
   </h2>
-    <a href="/uralhouse/devops-netology/find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
+    <a href="/abakarow/devops-netology/find/main" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
   <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
     <summary role="button" data-view-component="true" class="btn">    <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
@@ -2445,7 +2446,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/uralhouse/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="ecab8e2058baeb80412b2a7d155a9e12be2fe7f79a219570020f44a476df2c60" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/uralhouse/devops-netology/find/main">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:421396622,&quot;originating_url&quot;:&quot;https://github.com/abakarow/devops-netology/blob/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml&quot;,&quot;user_id&quot;:60972929}}" data-hydro-click-hmac="ecab8e2058baeb80412b2a7d155a9e12be2fe7f79a219570020f44a476df2c60" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/abakarow/devops-netology/find/main">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2463,7 +2464,7 @@
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/uralhouse/devops-netology/blob/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/abakarow/devops-netology/blob/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2492,10 +2493,10 @@
   
 </div></div>
 
-    <include-fragment src="/uralhouse/devops-netology/spoofed_commit_check/8ac0d79b234bcdb82caa003183da82c1e2dddb1f" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/abakarow/devops-netology/spoofed_commit_check/8ac0d79b234bcdb82caa003183da82c1e2dddb1f" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  <include-fragment src="/uralhouse/devops-netology/contributors/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="commit-loader">
+  <include-fragment src="/abakarow/devops-netology/contributors/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" class="commit-loader">
     <div class="Box-header d-flex flex-items-center">
       <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
       <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2538,14 +2539,14 @@
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/uralhouse/devops-netology/raw/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" href="/uralhouse/devops-netology/raw/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/uralhouse/devops-netology/blame/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" href="/uralhouse/devops-netology/blame/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/abakarow/devops-netology/raw/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" href="/abakarow/devops-netology/raw/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/abakarow/devops-netology/blame/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml" href="/abakarow/devops-netology/blame/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/uralhouse/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YQiYM_e2a0U0EVeuzP94JHkkIg8DK0Goo0dtH5Vxb6A6aRQh5_Ylgw6zPKcYJfJKFdRaR34lDk2EHdcMs4K74w" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/abakarow/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YQiYM_e2a0U0EVeuzP94JHkkIg8DK0Goo0dtH5Vxb6A6aRQh5_Ylgw6zPKcYJfJKFdRaR34lDk2EHdcMs4K74w" autocomplete="off" />
       <button title="Fork this project and edit the file" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
@@ -2555,7 +2556,7 @@
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/uralhouse/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DX6YCaEvwR8E3umYeFNsmcKOZ3tY-bOnigCSWsBKXvVWHxQbsW-P2T58gpGsieb3rn4fMyX3_EKtWihJ5rmKtg" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/abakarow/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DX6YCaEvwR8E3umYeFNsmcKOZ3tY-bOnigCSWsBKXvVWHxQbsW-P2T58gpGsieb3rn4fMyX3_EKtWihJ5rmKtg" autocomplete="off" />
               <button title="Fork this project and edit the file" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
@@ -2563,7 +2564,7 @@
               <div class="mr-5 no-wrap">Open in github.dev</div>
               <div class="color-fg-muted">.</div>
 </a>
-            <a data-platforms="windows,mac" data-test-selector="github-desktop-link" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/uralhouse/devops-netology?branch=main&amp;filepath=3_mnt-homeworks%2F09-ci-02-cicd%2Fpom.xml" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
+            <a data-platforms="windows,mac" data-test-selector="github-desktop-link" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/abakarow/devops-netology?branch=main&amp;filepath=3_mnt-homeworks%2F09-ci-02-cicd%2Fpom.xml" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
               Open in GitHub Desktop
 </a>        </div>
       </div>
@@ -2577,7 +2578,7 @@
   </div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/uralhouse/devops-netology/delete/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DaKJKmg0s5xx_uORK2Nrw1vW4f-KED55jWXU2kppD4uDAO0zova81hnzoHPn3cbog1fQ3FuxIqAMh3CSKZ_udA" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/abakarow/devops-netology/delete/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DaKJKmg0s5xx_uORK2Nrw1vW4f-KED55jWXU2kppD4uDAO0zova81hnzoHPn3cbog1fQ3FuxIqAMh3CSKZ_udA" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2605,32 +2606,32 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/uralhouse/devops-netology?branch=main&amp;filepath=3_mnt-homeworks%2F09-ci-02-cicd%2Fpom.xml">
+                   href="x-github-client://openRepo/https://github.com/abakarow/devops-netology?branch=main&amp;filepath=3_mnt-homeworks%2F09-ci-02-cicd%2Fpom.xml">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/uralhouse/devops-netology/raw/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">
+            <a class="dropdown-item" href="/abakarow/devops-netology/raw/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">
               View raw
             </a>
           </li>
             <li>
                           </li>
             <li>
-              <a class="dropdown-item" href="/uralhouse/devops-netology/blame/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">
+              <a class="dropdown-item" href="/abakarow/devops-netology/blame/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/uralhouse/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Edit file</a>
+                <a class="dropdown-item" href="/abakarow/devops-netology/edit/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Edit file</a>
               </li>
                 <li>
                   <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:421396622,&quot;actor_id&quot;:60972929,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/uralhouse/devops-netology/delete/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/abakarow/devops-netology/delete/main/3_mnt-homeworks/09-ci-02-cicd/pom.xml">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2788,8 +2789,8 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/uralhouse/devops-netology/blame/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/uralhouse/devops-netology/issues/new">Reference in new issue</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/abakarow/devops-netology/blame/8ac0d79b234bcdb82caa003183da82c1e2dddb1f/3_mnt-homeworks/09-ci-02-cicd/pom.xml">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/abakarow/devops-netology/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
   </details>
