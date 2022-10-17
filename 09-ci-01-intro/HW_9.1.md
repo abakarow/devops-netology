@@ -29,7 +29,6 @@
 
 ### Решение 
 Bug workflow
-
 ![](src/bugworkflow.png)
 
 Other workflow
