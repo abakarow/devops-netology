@@ -36,4 +36,5 @@ Other workflow
 ![](src/otherflow.png)
 
 [bug xml](https://github.com/abakarow/devops-netology/blob/main/09-ci-01-intro/src/Bug%20workflow.xml)
+
 [other xml](https://github.com/abakarow/devops-netology/blob/main/09-ci-01-intro/src/Base%20workflow.xml)
