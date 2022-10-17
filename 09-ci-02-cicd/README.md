@@ -59,12 +59,53 @@ ops@ops-Lenovo-G780:~/PycharmProjects/devops-netology/09-ci-02-cicd/example$ son
 ### Подготовка к выполнению
 
 1. Выполняем `docker pull sonatype/nexus3`
+### Решение
+```
+ops@ops-Lenovo-G780:~$ docker pull sonatype/nexus3
+Using default tag: latest
+latest: Pulling from sonatype/nexus3
+d5d2e87c6892: Pull complete 
+008dba906bf6: Pull complete 
+b4e2142a7ee0: Pull complete 
+75bdf4e3eda5: Pull complete 
+754b7a6e063a: Pull complete 
+54fb6fd82993: Pull complete 
+484f7f034926: Pull complete 
+e0a41b95cd8d: Pull complete 
+Digest: sha256:7e7abd3418d507d5263460eda83e239aff758cd362f8add54d9c9846cada2533
+Status: Downloaded newer image for sonatype/nexus3:latest
+docker.io/sonatype/nexus3:latest
+```
 2. Выполняем `docker run -d -p 8081:8081 --name nexus sonatype/nexus3`
+### Решение
+```
+ops@ops-Lenovo-G780:~$ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+42c974befdd3dca857bb7c529fb5002935e92b2b99f4f227753a8d62f5bbed1d
+```
 3. Ждём запуск, смотрим логи через `docker logs -f nexus`
-4. Проверяем готовность сервиса через [бразуер](http://localhost:8081)
-5. Узнаём пароль от admin через `docker exec -it nexus /bin/bash`
-6. Подключаемся под админом, меняем пароль, сохраняем анонимный доступ
+### Решение
+```
+-------------------------------------------------
 
+Started Sonatype Nexus OSS 3.42.0-01
+
+-------------------------------------------------
+```
+4. Проверяем готовность сервиса через [бразуер](http://localhost:8081)
+### Решение
+![](src/2022-10-17_07-55.png)
+5. Узнаём пароль от admin через `docker exec -it nexus /bin/bash`
+### Решение
+```
+
+ops@ops-Lenovo-G780:~$ sudo docker exec -it nexus /bin/bash
+bash-4.4$ cat /nexus-data/admin.password 
+208ab907-9a05-4432-a397-4a56413e40aebash-4.4$ 
+```
+
+
+6. Подключаемся под админом, меняем пароль, сохраняем анонимный доступ
+![](src/2022-10-17_08-01.png)
 ### Основная часть
 
 1. В репозиторий `maven-public` загружаем артефакт с GAV параметрами:
@@ -74,8 +115,14 @@ ops@ops-Lenovo-G780:~/PycharmProjects/devops-netology/09-ci-02-cicd/example$ son
    4. classifier: distrib
    5. type: tar.gz
 2. В него же загружаем такой же артефакт, но с version: 8_102
+### Решение
+![](src/2022-10-17_08-13.png)
 3. Проверяем, что все файлы загрузились успешно
+### Решение
+![](src/2022-10-17_08-14.png)
 4. В ответе присылаем файл `maven-metadata.xml` для этого артефекта
+### Решение
+maven-metadata.xml
 
 ### Знакомство с Maven
 
