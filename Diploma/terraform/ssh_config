@@ -1,0 +1,40 @@
+User ubuntu
+IdentityFile ~/.ssh/id_rsa
+
+Host abakarow.ru
+  HostName www.abakarow.ru
+  PasswordAuthentication no
+  KbdInteractiveAuthentication no
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+
+Host db01.abakarow.ru
+  HostName mysql-master
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa 
+
+Host db02.abakarow.ru
+  HostName mysql-slave
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa
+
+Host app.abakarow.ru
+  HostName wordpress
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa
+
+Host monitoring.abakarow.ru
+  HostName monitoring
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa
+
+Host gitlab.abakarow.ru
+  HostName gitlab
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa
+
+Host runner.abakarow.ru
+  HostName runner
+    ProxyJump abakarow.ru
+    ProxyCommand ssh -W %h:%p -i .ssh/id_rsa

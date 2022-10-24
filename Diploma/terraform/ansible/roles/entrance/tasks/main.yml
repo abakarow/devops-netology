@@ -1,0 +1,160 @@
+- hosts: main
+  become: yes
+  become_user: root
+  remote_user: ubuntu
+  environment:
+    LANGUAGE: en_US
+    LC_ALL: en_US.UTF-8
+
+  tasks:
+    - name: Update apt packages
+      apt:
+        upgrade: no
+        update_cache: yes
+
+    - name: Install nginx package
+      ansible.builtin.apt:
+        name:
+          - nginx
+        state: present
+        update_cache: true
+
+    - name: Clear nginx config file
+      command: truncate --size 0 /etc/nginx/sites-enabled/default
+
+    - name: Copy nginx config content
+      copy:
+        dest: /etc/nginx/sites-enabled/default
+        content: |
+          server {
+              listen 80;
+              server_name www.abakarow.ru;
+          
+              location / {
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+          
+                proxy_pass http://wordpress;
+                proxy_read_timeout 90;
+          
+                proxy_redirect http://wordpress http://www.abakarow.ru;
+              }
+          }
+          
+          server {
+              listen 80;
+              server_name gitlab.abakarow.ru;
+          
+              location / {
+                client_max_body_size 100m;
+                
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+          
+                proxy_pass http://gitlab:10080;
+                proxy_set_header Host $host;
+                proxy_read_timeout 90;
+          
+                proxy_redirect http://gitlab:10080 https://gitlab.abakarow.ru;
+              }
+          }
+          
+          server {
+              listen 80;
+              server_name grafana.abakarow.ru;
+          
+              location / {
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+          
+                proxy_pass http://monitoring:3000;
+                proxy_read_timeout 90;
+          
+                proxy_redirect http://monitoring:3000 https://grafana.abakarow.ru;
+              }
+          }
+          
+          server {
+              listen 80;
+              server_name prometheus.abakarow.ru;
+          
+              location / {
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+          
+                proxy_pass http://monitoring:9090;
+                proxy_read_timeout 90;
+          
+                proxy_redirect http://monitoring:9090 https://prometheus.abakarow.ru;
+              }
+          }
+          
+          server {
+              listen 80;
+              server_name alertmanager.abakarow.ru;
+          
+              location / {
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+          
+                proxy_pass http://monitoring:9093;
+                proxy_read_timeout 90;
+          
+                proxy_redirect http://monitoring:9093 https://alertmanager.abakarow.ru;
+              }
+          }
+
+    - name: Restart nginx daemon
+      systemd:
+        name: nginx
+        state: restarted
+        enabled: yes
+
+    - name: Install snapd package
+      apt:
+        name:
+          - snapd
+        state: present
+        update_cache: true
+
+    - name: Install snap core
+      shell:
+        cmd: sudo snap install core; sudo snap refresh core
+
+    - name: Install snap certbot
+      command: snap install --classic certbot
+
+    - name: Request for SSL for `www.abakarow.ru`
+      command: certbot -d www.abakarow.ru -m abakarow@bk.ru --nginx --agree-tos --test-cert
+
+    - name: Request for SSL for `grafana.abakarow.ru`
+      command: certbot -d grafana.abakarow.ru -m abakarow@bk.ru --nginx --agree-tos --test-cert
+
+    - name: Request for SSL for `prometheus.abakarow.ru`
+      command: certbot -d prometheus.abakarow.ru -m abakarow@bk.ru --nginx --agree-tos --test-cert
+
+    - name: Request for SSL for `alertmanager.abakarow.ru`
+      command: certbot -d alertmanager.abakarow.ru -m abakarow@bk.ru --nginx --agree-tos --test-cert
+
+    - name: Request for SSL for `gitlab.abakarow.ru`
+      command: certbot -d gitlab.abakarow.ru -m abakarow@bk.ru --nginx --agree-tos --test-cert
+
+    - name: Include Docker task from `common` role
+      include_role:
+        name: common
+        tasks_from: docker
+
+    - name: Include Node exporter task from `common` role
+      include_role:
+        name: common
+        tasks_from: node-exporter

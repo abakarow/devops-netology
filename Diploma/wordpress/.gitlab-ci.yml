@@ -1,0 +1,9 @@
+deploy-job:
+  stage: deploy
+  script:
+    - echo "Deploy" 
+    # Upload to server
+    - rsync -vz  ./* /var/www/wordpress/
+    - rm -rf /var/www/wordpress/.git
+    # Provide file permissions
+    - sudo chown -R www-data /var/www/wordpress/
